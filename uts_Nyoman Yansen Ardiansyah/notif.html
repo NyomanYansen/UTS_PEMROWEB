@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Halaman Utama</title>
+  <script>
+    window.onload = function() {
+      alert("Halo, selamat datang di website saya!");
+
+      var nama = prompt("Masukkan nama Anda:");
+
+      if (nama) {
+        alert("Selamat datang, " + nama);
+        window.location.href = "latihann.html";
+      } else {
+        alert("Kamu belum memasukkan nama.");
+      }
+    };
+  </script>
+</head>
+<body style="font-family: Arial; text-align: center; margin-top: 50px;">
+  <h1>Halaman Utama</h1>
+  <p>Popup akan muncul otomatis saat halaman ini dibuka.</p>
+</body>
+</html>
